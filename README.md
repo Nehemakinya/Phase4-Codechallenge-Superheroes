@@ -60,8 +60,11 @@ POST /hero_powers: Create a relationship between a hero and a power.
 To seed the database with initial data, you can run the provided seed_data() function. This function creates sample hero and power records and establishes associations between them using the HeroPower model.
 
 if __name__ == '__main__':
+
     with app.app_context():
+    
         db.create_all()
+        
         seed_data()
 
 
