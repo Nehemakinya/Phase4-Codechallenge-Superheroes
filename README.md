@@ -78,9 +78,6 @@ python app.py
 
 The application will start on port 5555 by default. You can access the API using a tool like curl or a web client of your choice.
 
-**Example API request**
-
-Get a list of hero IDs: GET http://localhost:5555/heroes
 
 # Acknowledgments
 This project was created as a simple example of building a RESTful API with Flask and SQLAlchemy.
